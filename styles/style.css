@@ -354,3 +354,106 @@
 .gallery-img-box img:hover {
   transform: scale(1.2);
 }
+
+/* news section  */
+
+.news-content-box {
+  padding: 8rem 20rem;
+  background-color: rgba(255, 0, 0, 0.05);
+  border-radius: 9px;
+}
+
+.news-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.news-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  margin-top: 4rem;
+  margin-bottom: 2.4rem;
+}
+
+.news-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  line-height: 32px; /* 160% */
+  margin-bottom: 4.8rem;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+}
+
+.subscribe input {
+  padding: 2.8rem 19.2rem;
+  padding-left: 2.4rem;
+  border: 0;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.subscribe input::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  text-align: center;
+  font-size: 18px;
+}
+
+.btn-subscribe {
+  text-decoration: none;
+  background: #f00;
+  color: #fff;
+  padding: 2.4rem 4.8rem;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+/* footer section  */
+.footer-text {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px; /* 166.667% */
+}
+
+/* .footer-content-box {
+  display: flex;
+  flex-direction: column;
+} */
+
+.footer-row-1 {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3.2rem;
+}
+
+.social-links {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  padding: 3.2rem 0;
+}
+
+.footer-row-3 {
+  padding-top: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer a:link,
+footer a:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 500;
+}
