@@ -212,3 +212,92 @@
 .coming-content-3 img {
   margin-top: 3.2rem;
 }
+
+/* section functional  */
+/* .section-functional{
+
+} */
+.functional-top-content-box {
+  margin: 0 auto;
+  max-width: 80rem;
+}
+
+.functional-top-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.functional-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+}
+
+.functional-heading {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 2.4rem;
+}
+.functional-heading span {
+  color: #f00;
+}
+
+.functional-text {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+}
+
+/* .functional-bottom-img-box {
+  background: url("../resources/Rectangle\ 1.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+} */
+
+.rectangle-1-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: -2px;
+}
+
+.rectangle-1 {
+  position: relative;
+}
+
+.circle-1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+}
+/* .rectangle-1::before {
+  content: "";
+  background: url("../resources/Group\ 44.png");
+  width: 100%;
+  height: 20rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 10;
+} */
+
+.rectangle-2-container {
+  position: relative;
+}
+
+.rectangle-2 {
+  width: 100%;
+}
+
+.rectangle-3 {
+  position: absolute;
+  top: -80%;
+  left: 10%;
+  width: 35%;
+}
