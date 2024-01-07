@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  /* font-family: "Merriweather", serif; */
+}
+
+header {
+  margin-top: 5rem;
+}
+
+.container {
+  max-width: 82.5%;
+  margin: 0 auto;
+}
+
+.heading-secondary {
+  color: #fff;
+  font-size: 7.2rem;
+  font-weight: 900;
+  line-height: 9.5rem; /* 131.944% */
+}
+
+.heading-primary {
+  color: #f00;
+  font-size: 8.8rem;
+  font-weight: 700;
+}
