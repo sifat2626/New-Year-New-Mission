@@ -271,7 +271,7 @@
 .rectangle-1-container {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-bottom: -2px;
+  margin-bottom: -5px;
 }
 
 .rectangle-1 {
