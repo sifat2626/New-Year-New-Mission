@@ -351,13 +351,14 @@
 
 .gallery-item {
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 18px;
 }
 
 .gallery-img-box img {
   /* border-radius: 5px; */
   display: block;
   width: 100%;
+
   transition: all 0.4s;
 }
 
