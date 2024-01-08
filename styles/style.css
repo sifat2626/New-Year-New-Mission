@@ -355,12 +355,14 @@
 
 .gallery-img-box img {
   /* border-radius: 5px; */
+  display: block;
   width: 100%;
-  transition: 0.3s all;
+  transition: all 0.4s;
 }
 
 .gallery-img-box img:hover {
   transform: scale(1.2);
+  /* background-color: #f00; */
 }
 
 /* news section  */
