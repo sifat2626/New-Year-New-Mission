@@ -161,12 +161,19 @@
 }
 
 .coming-content-2 {
-  background-color: yellow;
-  width: 80%;
-  padding-bottom: 80%;
-  border-radius: 50%;
   border: 15px solid #f00;
-  box-sizing: content-box;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+
+.content-2-box {
+  background-color: yellow;
+  width: 100%;
+  padding-bottom: 100%;
+  border-radius: 50%;
   background-image: url("../resources/Ellipse\ 1.png");
   background-position: center;
   background-size: cover;
@@ -297,7 +304,7 @@
 
 .rectangle-3 {
   position: absolute;
-  top: -80%;
+  top: -100%;
   left: 10%;
   width: 35%;
 }
@@ -343,10 +350,11 @@
 
 .gallery-item {
   overflow: hidden;
+  border-radius: 15px;
 }
 
 .gallery-img-box img {
-  border-radius: 5px;
+  /* border-radius: 5px; */
   width: 100%;
   transition: 0.3s all;
 }
@@ -424,6 +432,7 @@
   font-size: 24px;
   font-weight: 500;
   line-height: 40px; /* 166.667% */
+  max-width: 40rem;
 }
 
 /* .footer-content-box {
@@ -433,7 +442,7 @@
 
 .footer-row-1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding-bottom: 3.2rem;
 }
 
@@ -441,6 +450,7 @@
   display: flex;
   /* align-items: center; */
   justify-content: center;
+  gap: 1.6rem;
   padding: 3.2rem 0;
 }
 
@@ -456,4 +466,12 @@ footer a:visited {
   color: #fff;
   font-size: 24px;
   font-weight: 500;
+}
+
+/* .footer-address {
+  margin-right: auto;
+} */
+
+.margin-right-md {
+  margin-right: 15rem;
 }
