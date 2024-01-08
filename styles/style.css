@@ -150,7 +150,7 @@
   border-radius: 8px;
   background: #f00;
   color: #fff;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -188,7 +188,7 @@
 
 .coming-title {
   color: #f00;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   margin-bottom: 0.8rem;
 }
@@ -196,7 +196,7 @@
 .coming-heading {
   color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 900;
   text-transform: capitalize;
   margin-bottom: 2.4rem;
@@ -205,13 +205,13 @@
 .coming-text {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
-  font-size: 20px;
-  line-height: 32px; /* 160% */
+  font-size: 2rem;
+  line-height: 3.2rem; /* 160% */
 }
 
 .coming-heading-secondary {
   color: #f00;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 700;
   margin-bottom: 1.6rem;
 }
@@ -239,7 +239,7 @@
 .functional-title {
   color: #070211;
   font-family: Inter;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   margin-bottom: 1.6rem;
 }
@@ -247,7 +247,7 @@
 .functional-heading {
   color: #070211;
   font-family: Merriweather;
-  font-size: 72px;
+  font-size: 7.2rem;
   font-weight: 900;
   margin-bottom: 2.4rem;
 }
@@ -257,9 +257,9 @@
 
 .functional-text {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
-  line-height: 32px; /* 160% */
+  line-height: 3.2rem; /* 160% */
 }
 
 /* .functional-bottom-img-box {
@@ -320,7 +320,7 @@
 
 .gallery-title {
   color: #f00;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
   margin-bottom: 1.6rem;
 }
@@ -328,7 +328,7 @@
 .gallery-heading {
   color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 900;
   text-transform: capitalize;
   margin-bottom: 2.4rem;
@@ -336,8 +336,8 @@
 
 .gallery-text {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
-  line-height: 32px; /* 160% */
+  font-size: 2rem;
+  line-height: 3.2rem; /* 160% */
 }
 
 .gallery-img-box {
@@ -380,7 +380,7 @@
 .news-heading {
   color: #070211;
   font-family: Merriweather;
-  font-size: 48px;
+  font-size: 4.8rem;
   font-weight: 900;
   text-transform: capitalize;
   margin-top: 4rem;
@@ -389,8 +389,8 @@
 
 .news-text {
   color: rgba(7, 2, 17, 0.6);
-  font-size: 20px;
-  line-height: 32px; /* 160% */
+  font-size: 2rem;
+  line-height: 3.2rem; /* 160% */
   margin-bottom: 4.8rem;
 }
 
@@ -403,14 +403,14 @@
   padding: 2.8rem 19.2rem;
   padding-left: 2.4rem;
   border: 0;
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-top-left-radius: 5rem;
+  border-bottom-left-radius: 5rem;
 }
 
 .subscribe input::placeholder {
   color: rgba(7, 2, 17, 0.3);
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
 }
 
 .btn-subscribe {
@@ -419,19 +419,19 @@
   color: #fff;
   padding: 2.4rem 4.8rem;
   color: #fff;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 600;
   text-transform: capitalize;
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
 }
 
 /* footer section  */
 .footer-text {
   color: #fff;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
-  line-height: 40px; /* 166.667% */
+  line-height: 4rem; /* 166.667% */
   max-width: 40rem;
 }
 
@@ -464,7 +464,7 @@ footer a:link,
 footer a:visited {
   text-decoration: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 500;
 }
 
